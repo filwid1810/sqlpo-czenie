@@ -96,7 +96,7 @@ public static int register(String username, String password) {
    return new Account(
            username,
            result.getInt(1)
-   );
+    );
 
 
 

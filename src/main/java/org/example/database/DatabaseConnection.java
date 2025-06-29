@@ -8,7 +8,7 @@ public class DatabaseConnection {
     private static java.sql.Connection connection;
 
     public static Connection getConnection() {
-        return connection;
+        return  connection;
     }
     public void connect(String dbUrl) {
     String url = "jdbc:sqlite:" + dbUrl;
